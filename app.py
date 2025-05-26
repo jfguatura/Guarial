@@ -18,7 +18,11 @@ st.markdown(
     👉 **Passos:**  
     1️⃣ Cole seu texto bruto abaixo.  
     2️⃣ Clique em **'Aplicar Formatação'** para visualizar.  
-    3️⃣ Ou clique direto em **'Baixar como .DOCX'** se quiser gerar sem visualizar.  
+    3️⃣ Ou clique direto em **'Baixar como .DOCX'** se quiser gerar sem visualizar. 
+
+    _Atenção: O nome do arquivo será salvo com a primeira linha do documento, seguido_
+    _da data do dia truncada._
+    _Exemplo: "Título - 08112019.docx"_
     """
 )
 
