@@ -107,7 +107,7 @@ if texto.strip():
     titulo_seguro = re.sub(r'[\/:*?"<>|()]+', '-', titulo)
     titulo_seguro = re.sub(r'\s+', ' ', titulo_seguro).strip()
 
-    data_atual = datetime.now().strftime("%d%m%y")
+    data_atual = datetime.now().strftime("%d%m%Y")
     nome_arquivo = f"{titulo_seguro} - {data_atual}.docx"
 
     doc = gerar_documento(paragrafos)
